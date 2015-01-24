@@ -26,5 +26,4 @@ TARGET_INIT_VENDOR_LIB := libinit_msm_oppo
 TARGET_POWERHAL_VARIANT := qcom
 
 # Releasetools
-TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_oppo
 TARGET_RELEASETOOLS_EXTENSIONS := device/oppo/common
