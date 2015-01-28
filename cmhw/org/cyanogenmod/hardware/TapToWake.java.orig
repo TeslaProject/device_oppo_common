@@ -28,7 +28,11 @@ public class TapToWake {
     }
 
     public static boolean isEnabled()  {
+<<<<<<< HEAD
+        return mEnabled;
+=======
         return "1".equals(FileUtils.readOneLine(CONTROL_PATH));
+>>>>>>> 26c24d0... oppo-common: Don't attempt to parse a null from FileUtils
     }
 
     public static boolean setEnabled(boolean state)  {
